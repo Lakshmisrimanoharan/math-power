@@ -1,0 +1,22 @@
+# math-power
+math power mtd without using function
+import java.util.*;
+import java.lang.*;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+int result=1;
+System.out.println("Enter the base value : ");
+int base=sc.nextInt();
+for(int power=1;power<=3;power++)
+{
+   result=result*base;
+}
+System.out.println("The result is "+result);
+}
+}
+
+output :
+Enter the base value :2
+The result is 8
